@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Oswald', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+}
+@font-face {
+    font-family: 'Teko', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+}
+@font-face {
+    font-family: 'Comfortaa', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+}
+html{
+    background-color: aquamarine;
+    scroll-behavior: smooth;
+}
+.heading{
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    color: gold;
+}
+.agents{
+    font-family: 'Comfortaa', cursive;
+}
+.p1, .p2{
+    font-family:'Teko', sans-serif ;
+}
+footer{
+    margin: 0px;
+    text-align: center;
+    padding: 0 9%;
+}
+footer a{
+    padding: .5em 9;
+    color: rgb(12, 1, 1);
+    text-align: center;
+}
+footer a:hover{
+    background-color: rgba(255,255,255, 0.3);
+}

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Oswald', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+}
+@font-face {
+    font-family: 'Teko', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+}
+@font-face {
+    font-family: 'Comfortaa', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+}
+html {
+    background-color: aquamarine;
+    scroll-behavior: smooth;
+    background-image: url(valo_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+}
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.spike{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Home{
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    color: gold;
+}
+#About{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color: brown;
+}
+#SR{
+    font-family: 'Comfortaa', cursive;
+}
+.Sr{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color:  brown;
+}
+#CHS{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color:  brown;
+}
+#GameModes{
+    font-family: 'Comfortaa', cursive;
+}
+#Maps{
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+}
+#Agents{
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+}
+.GM{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color:  brown;
+}
+.Maps{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color:  brown;
+}
+.Agts{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color:  brown;
+}
+.about_para{
+    font-family: 'Comfortaa', cursive;
+}
+.Buttons{
+    margin: 0px;
+    text-align: center;
+    padding: 0 9%;
+}
+.Buttons a{
+    padding: .5em 9;
+    color: rgb(12, 1, 1);
+    text-align: center;
+}
+.Buttons a:hover{
+    background-color: rgba(255,255,255, 0.3);
+}
+footer{
+    text-align: center;
+}
